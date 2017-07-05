@@ -1,6 +1,6 @@
 config.ini
 Test.py
-QMS_Scripts/
+TMS_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
