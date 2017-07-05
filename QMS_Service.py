@@ -16,6 +16,7 @@ class QMS_Service(object):
             f"http://{server_name}:4799/QMS/Service",
             transport = Transport(session = session)
         )
+        print(f"Connected to {server_name}")
         self.api = self.c.service
         self.refresh_key()
         self.services = self.api.GetServices(["All"])
